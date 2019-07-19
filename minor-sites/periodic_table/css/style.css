@@ -1,0 +1,121 @@
+*{
+    margin:0;
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(60,60,60);
+    color:white;
+}
+
+div{
+    width:15%; 
+    margin-top: 150px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 1em;
+    margin: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 4%;
+    color:black;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+table {
+    width: 85%;
+    margin-right: 2%;
+}
+
+caption{
+    font-size: 2.5em; 
+}
+
+tr{
+    width:900px;
+    height: 50px;
+}
+
+th{
+    font-size: 1.3em;
+}
+
+td{
+    width:50px;
+    height: 50px;
+    background: gray;
+    font-size: 1.3em;
+    text-align: center;
+    transition: 0.5s;
+    border: solid black 1px;
+    border-radius: 10px;
+    color: black;
+}
+td:hover{
+    transform: translate(-25px, -25px);
+    transform: scale(2,2);
+}
+
+.empty {
+    background: rgb(60,60,60);
+    border:none;     
+}
+
+.empty:hover {
+    transform: none;
+}
+
+#lastrow{
+    height: 15px;
+}
+
+span{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #007bff;
+    transform: translate(-10px,0)
+}
+
+/* element classification */
+
+.am{
+    background: lightsalmon;
+}
+
+.aem{
+    background: lightseagreen;
+}
+
+.la{
+    background: lightblue;
+}
+
+.ac{
+    background: lightgoldenrodyellow;
+}
+
+.tm{
+    background: lightpink;
+}
+.ptm{
+    background: lightgreen;
+}
+.m{
+    background: lightslategray;
+}
+.om{
+    background: lightcoral;
+}
+.ng{
+    background: lightskyblue;
+}
+

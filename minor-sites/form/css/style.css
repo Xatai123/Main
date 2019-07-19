@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    padding: 5%;
+    background: lightblue;
+}
+
+.container{
+    height: 90%;
+    width: 60%;
+    min-width: 450px;
+    padding: 2% 2% 60px 2%;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+    border-bottom: steelblue 4px solid;
+    border-right: steelblue 4px solid;
+}
+
+h1{
+    text-align: center;
+}
+
+/* main */
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+fieldset{
+    padding: 10px;
+    margin: 3% 0;
+    justify-content: center;
+}
+
+label, .main span{
+    width: 50%;
+    font-size: 1.1em;
+}
+
+.main input[type="text"], input[type="date"]{
+    border:none;
+    width:90%;
+    height: 40px;
+    border-bottom: steelblue 2px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#custom{
+    background: steelblue;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color:white;
+}
+
+#photo{
+    display: none;
+}
+
+/* Languages */
+.languages{
+    display: grid;
+    grid-template: repeat(4, 40px) / repeat(4,1fr);
+    text-align: center;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+p{
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    line-height: 35px;
+}
+
+select{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* education */
+.education{
+    display: grid;
+    grid-template: repeat(2, 1fr) / 25% 40% 20% 15%;
+    text-align: center;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.education span{
+    padding: 0 1px;
+}
+
+input[type="text"]{
+    border:none;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+
+button{
+    float: right;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: steelblue;
+    color: white;
+    font-size: 1.2em;
+}
+
