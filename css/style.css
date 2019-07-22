@@ -119,7 +119,7 @@ a {
 
 .section {
   width: 82%;
-  height: 100vh;
+  min-height: 100vh;
   float: right;
   overflow: hidden;
 }
